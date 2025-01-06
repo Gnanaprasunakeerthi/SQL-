@@ -12,7 +12,7 @@ insert into patients ( Patients_Name , Patients_Age, Patients_Address ,Patients_
 ("Sreeja Krishnan",     30,   "45, Krishna Villa, T. Nagar, Chennai, Tamil Nadu",           "+91 9885544231"),
 ("Prakash Kumar",	    55,   "23, Meenakshi Apartments, Mylapore, Chennai, Tamil Nadu",	"+91 9945771223"),
 ("Lakshmi Nair",        29,   "57,Parvathi Nagar, Kochi, Kerala",	                        "+91 9898003245"),
-("Ravi Kumar",          32,   "38/2 , Maruthi Layout, Whitefield, Bangalore, Karnataka	",  "+91 9884432789"),
+("Ravi Kumar",          32,   "38/2 , Maruthi Layout, Whitefield, Bangalore, Karnataka",    "+91 9884432789"),
 ("Divya Nandakumar",    38,	   " 3, Siva Nagar, Trivandrum, Kerala",	                    "+91 9945123456"),
 ("Arvind Venkataraman", 40,	  "109, Nandanavana, Madurai, Tamil Nadu",	                    "+91 9888321567"),
 ("Priya Lakshmi",       26,   "34, Krishnan Street, Rajahmundry, Andhra Pradesh",	        "+91 9864312790"),
