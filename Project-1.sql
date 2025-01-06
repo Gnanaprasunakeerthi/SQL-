@@ -8,16 +8,16 @@ Patients_Mobile_Number VARCHAR(20),
 );
 -->> Inserting the patients records
 insert into patients ( Patients_Name , Patients_Age, Patients_Address ,Patients_Mobile_Number)Values
-("Venkatesh Reddy",     42,   "12/34, Lakshmi Nagar, Banjarahills, Hyderabad, Telangana",   "+91 9845723198"),
-("Sreeja Krishnan",     30,   "45, Krishna Villa, T. Nagar, Chennai, Tamil Nadu",           "+91 9885544231"),
-("Prakash Kumar",	    55,   "23, Meenakshi Apartments, Mylapore, Chennai, Tamil Nadu",	"+91 9945771223"),
-("Lakshmi Nair",        29,   "57,Parvathi Nagar, Kochi, Kerala",	                        "+91 9898003245"),
-("Ravi Kumar",          32,   "38/2 , Maruthi Layout, Whitefield, Bangalore, Karnataka",    "+91 9884432789"),
-("Divya Nandakumar",    38,	   " 3, Siva Nagar, Trivandrum, Kerala",	                    "+91 9945123456"),
-("Arvind Venkataraman", 40,	  "109, Nandanavana, Madurai, Tamil Nadu",	                    "+91 9888321567"),
-("Priya Lakshmi",       26,   "34, Krishnan Street, Rajahmundry, Andhra Pradesh",	        "+91 9864312790"),
-("Karthik Subramanian", 45,   "4/5, Sundaram Residency, Coimbatore, Tamil Nadu",	        "+91 9654219876"),
-("Anjali Shenoy",	    31,   " 121, Ravindra Enclave, Mangalore, Karnataka",	            "+91 9743234567");
+("Venkatesh Reddy",42,"12/34, Lakshmi Nagar, Banjarahills, Hyderabad, Telangana","+91 9845723198"),
+("Sreeja Krishnan",30,"45, Krishna Villa, T. Nagar, Chennai, Tamil Nadu","+91 9885544231"),
+("Prakash Kumar",55,"23, Meenakshi Apartments, Mylapore, Chennai, Tamil Nadu","+91 9945771223"),
+("Lakshmi Nair",29,"57,Parvathi Nagar, Kochi, Kerala","+91 9898003245"),
+("Ravi Kumar",32,"38/2 , Maruthi Layout, Whitefield, Bangalore, Karnataka","+91 9884432789"),
+("Divya Nandakumar",38," 3, Siva Nagar, Trivandrum, Kerala","+91 9945123456"),
+("Arvind Venkataraman", 40,"109, Nandanavana, Madurai, Tamil Nadu","+91 9888321567"),
+("Priya Lakshmi",26,"34, Krishnan Street, Rajahmundry, Andhra Pradesh","+91 9864312790"),
+("Karthik Subramanian",45,"4/5, Sundaram Residency, Coimbatore, Tamil Nadu","+91 9654219876"),
+("Anjali Shenoy",31," 121, Ravindra Enclave, Mangalore, Karnataka","+91 9743234567");
 
 
 
@@ -73,7 +73,7 @@ VALUES
 
 
 
-
+-->> Creating a Table for receipt
 
 create table Receipt(
 Serial_Number int,
@@ -85,7 +85,7 @@ Treatment_Fee int,
 Total_Fee int
 );
 
-
+-->> Inserting the receipt records
 INSERT INTO Receipt (Serial_Number, Patient_Name, Patient_Age, Doctor_Name, Consultation_Fee, Treatment_Fee, Total_Fee) VALUES
 (1, "Venkatesh Reddy", 42, "Dr. Arun Krishnan", 500, 2000, 500 + 2000),
 (2, "Sreeja Krishnan", 30, "Dr. Radhika Venkatesan", 600, 2500, 600 + 2500),
